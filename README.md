@@ -152,46 +152,6 @@ The public repository stores:
 
 The SQLite database is generated locally and is intentionally excluded from version control.
 
-## Repository Structure
-
-```text
-solar-claim-review/
-├── app.py
-├── build_db.py
-├── requirements.txt
-├── ENGINE_RULES.md
-├── evidence_engine/
-│   ├── claim_extractor.py
-│   ├── claim_matcher.py
-│   ├── database.py
-│   ├── ethical_benchmark.py
-│   ├── freshness.py
-│   ├── free_text_pipeline.py
-│   ├── ingest.py
-│   ├── input_router.py
-│   ├── pitch_pipeline.py
-│   ├── pitch_story_analyzer.py
-│   └── retrieval.py
-├── data/
-│   ├── claim_ontology.json
-│   ├── ethical_assessment_benchmark.json
-│   ├── seed_evidence.json
-│   └── source_registry.json
-├── docs/
-│   ├── ARCHITECTURE.md
-│   ├── METHODOLOGY.md
-│   ├── PROJECT_EVOLUTION.md
-│   ├── TRAINING_ROADMAP.md
-│   ├── SOURCE_GOVERNANCE.md
-│   ├── EXAMPLE_OUTPUT.md
-│   └── PORTFOLIO_CASE_STUDY.md
-├── samples/
-│   ├── sample_pitch_high_pressure.txt
-│   ├── sample_pitch_fact_first.txt
-│   └── sample_claim_threshold.txt
-└── tests/
-```
-
 ## Running the Prototype
 
 Create a virtual environment if desired, then install dependencies:
